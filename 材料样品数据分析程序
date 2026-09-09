@@ -1,1 +1,22 @@
 num = 10
+sum1 = 0
+date = float(input("第1个数据为：")
+sum1 = sum1 + date
+date_list = []
+date_list.append(date)
+max_a = date
+min_b = date
+for i in range(1 , num):
+    date = float(input(f"请输入第{i+1}个数据："))
+    sum1 = sum1 + date
+    date_list.append(date) 
+    if date > max_a:
+    max_a = date
+    if date < min_b:
+    min_b = date
+date_list.sort()
+average = sum1 / num
+print(f"最大值为：{max_a}")
+print(f"最小值为：{min_b}")
+print(f"平均值为：{average}")
+print(f"数据从小到大排序为：{date_list}")
