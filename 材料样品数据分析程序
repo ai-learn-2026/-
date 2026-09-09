@@ -1,6 +1,6 @@
 num = 10
 sum1 = 0
-date = float(input("第1个数据为：")
+date = float(input("第1个数据为："))
 sum1 = sum1 + date
 date_list = []
 date_list.append(date)
